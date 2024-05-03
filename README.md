@@ -22,7 +22,8 @@ To use EchoSight, follow these simple steps:
 2. Point your device's camera at the environment around you.
 3. The app will automatically begin to describe the scene audibly.
 4. Use gestures or voice commands to interact with the application if needed.
-
+## Demo 
+https://www.youtube.com/watch?v=EstoAOOk3lU
 ## Authors
 - Pranathi Mokshagundam
 - Chaitra Vishweshwaraiah
