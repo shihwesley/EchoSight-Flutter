@@ -24,6 +24,9 @@ To use EchoSight, follow these simple steps:
 4. Use gestures or voice commands to interact with the application if needed.
 ## Demo 
 https://www.youtube.com/watch?v=EstoAOOk3lU
+
+## Presentation
+https://docs.google.com/presentation/d/1bVHF4kO1ou5M42i26Os6Ph3GjD9BizSxEFiz8n1WMlM/edit?usp=sharing
 ## Authors
 - Pranathi Mokshagundam
 - Chaitra Vishweshwaraiah
