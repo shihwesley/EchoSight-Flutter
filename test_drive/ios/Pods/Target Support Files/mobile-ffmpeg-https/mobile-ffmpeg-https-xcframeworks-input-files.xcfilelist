@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/mobile-ffmpeg-https/mobile-ffmpeg-https-xcframeworks.sh
+${PODS_ROOT}/mobile-ffmpeg-https/mobileffmpeg.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libavcodec.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libavdevice.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libavfilter.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libavformat.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libavutil.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libswresample.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libswscale.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/gmp.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/gnutls.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libhogweed.xcframework
+${PODS_ROOT}/mobile-ffmpeg-https/libnettle.xcframework

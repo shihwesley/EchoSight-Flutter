@@ -1,0 +1,12 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/mobileffmpeg.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libavcodec.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libavdevice.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libavfilter.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libavformat.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libavutil.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libswresample.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libswscale.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/gmp.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/gnutls.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libhogweed.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https/libnettle.framework

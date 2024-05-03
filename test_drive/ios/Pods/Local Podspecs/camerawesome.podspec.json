@@ -1,0 +1,34 @@
+{
+  "name": "camerawesome",
+  "version": "0.0.1",
+  "summary": "An open source camera plugin by the community for the community",
+  "description": "An open source camera plugin by the community for the community",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "JPSVolumeButtonHandler": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

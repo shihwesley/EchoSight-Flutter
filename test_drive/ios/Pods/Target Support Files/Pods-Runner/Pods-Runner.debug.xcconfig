@@ -1,0 +1,15 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Try" "${PODS_CONFIGURATION_BUILD_DIR}/camera_avfoundation" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_ffmpeg" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_tts" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider_foundation" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler_apple" "${PODS_CONFIGURATION_BUILD_DIR}/speech_to_text" "${PODS_CONFIGURATION_BUILD_DIR}/video_player_avfoundation" "${PODS_ROOT}/mobile-ffmpeg-https" "${PODS_XCFRAMEWORKS_BUILD_DIR}/mobile-ffmpeg-https"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Try/Try.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/camera_avfoundation/camera_avfoundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_ffmpeg/flutter_ffmpeg.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_tts/flutter_tts.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider_foundation/path_provider_foundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler_apple/permission_handler_apple.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/speech_to_text/speech_to_text.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/video_player_avfoundation/video_player_avfoundation.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -ObjC -l"bz2" -l"c++" -l"iconv" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreMedia" -framework "Try" -framework "VideoToolbox" -framework "camera_avfoundation" -framework "flutter_ffmpeg" -framework "flutter_tts" -framework "gmp" -framework "gnutls" -framework "libavcodec" -framework "libavdevice" -framework "libavfilter" -framework "libavformat" -framework "libavutil" -framework "libhogweed" -framework "libnettle" -framework "libswresample" -framework "libswscale" -framework "mobileffmpeg" -framework "path_provider_foundation" -framework "permission_handler_apple" -framework "speech_to_text" -framework "video_player_avfoundation"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
