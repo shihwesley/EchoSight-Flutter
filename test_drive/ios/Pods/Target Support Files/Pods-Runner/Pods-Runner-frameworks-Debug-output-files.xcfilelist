@@ -1,5 +1,8 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Try.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/camera_avfoundation.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_native_splash.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_sound_core.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider_foundation.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/record.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/speech_to_text.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/video_player_avfoundation.framework

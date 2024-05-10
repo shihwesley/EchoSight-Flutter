@@ -18,6 +18,18 @@
 @import flutter_ffmpeg;
 #endif
 
+#if __has_include(<flutter_native_splash/FlutterNativeSplashPlugin.h>)
+#import <flutter_native_splash/FlutterNativeSplashPlugin.h>
+#else
+@import flutter_native_splash;
+#endif
+
+#if __has_include(<flutter_sound/FlutterSound.h>)
+#import <flutter_sound/FlutterSound.h>
+#else
+@import flutter_sound;
+#endif
+
 #if __has_include(<flutter_tts/FlutterTtsPlugin.h>)
 #import <flutter_tts/FlutterTtsPlugin.h>
 #else
@@ -34,6 +46,12 @@
 #import <permission_handler_apple/PermissionHandlerPlugin.h>
 #else
 @import permission_handler_apple;
+#endif
+
+#if __has_include(<record/RecordPlugin.h>)
+#import <record/RecordPlugin.h>
+#else
+@import record;
 #endif
 
 #if __has_include(<speech_to_text/SpeechToTextPlugin.h>)
@@ -53,9 +71,12 @@
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
   [CameraPlugin registerWithRegistrar:[registry registrarForPlugin:@"CameraPlugin"]];
   [FlutterFFmpegPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterFFmpegPlugin"]];
+  [FlutterNativeSplashPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterNativeSplashPlugin"]];
+  [FlutterSound registerWithRegistrar:[registry registrarForPlugin:@"FlutterSound"]];
   [FlutterTtsPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterTtsPlugin"]];
   [PathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"PathProviderPlugin"]];
   [PermissionHandlerPlugin registerWithRegistrar:[registry registrarForPlugin:@"PermissionHandlerPlugin"]];
+  [RecordPlugin registerWithRegistrar:[registry registrarForPlugin:@"RecordPlugin"]];
   [SpeechToTextPlugin registerWithRegistrar:[registry registrarForPlugin:@"SpeechToTextPlugin"]];
   [FVPVideoPlayerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FVPVideoPlayerPlugin"]];
 }

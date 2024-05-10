@@ -178,21 +178,30 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Try/Try.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/camera_avfoundation/camera_avfoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_native_splash/flutter_native_splash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_sound_core/flutter_sound_core.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/record/record.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/speech_to_text/speech_to_text.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/video_player_avfoundation/video_player_avfoundation.framework"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Try/Try.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/camera_avfoundation/camera_avfoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_native_splash/flutter_native_splash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_sound_core/flutter_sound_core.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/record/record.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/speech_to_text/speech_to_text.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/video_player_avfoundation/video_player_avfoundation.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Try/Try.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/camera_avfoundation/camera_avfoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_native_splash/flutter_native_splash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_sound_core/flutter_sound_core.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/record/record.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/speech_to_text/speech_to_text.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/video_player_avfoundation/video_player_avfoundation.framework"
 fi
